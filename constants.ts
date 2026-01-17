@@ -2,7 +2,7 @@
 import { ResumeData } from './types';
 
 export const INITIAL_DATA: ResumeData = {
-  name: "Raj Kamal Bisht",
+  name: "Raj K.",
   title: "Full Stack Software Architect",
   profileImage: "https://raw.githubusercontent.com/bishtrk/resume/main/assets/profile.jpg",
   email: "rajkamal612@gmail.com",
