@@ -9,7 +9,7 @@ export const INITIAL_DATA: ResumeData = {
   phone: "+91 -",
   website: "-",
   github: "github.com/bishtrk",
-  linkedin: "linkedin.com/in/rajkamalbisht",
+  linkedin: "linkedin.com/in/bishtrk/",
   summary: "Full Stack Software Architect with experience designing, developing and delivering scalable enterprise systems. Strong background in Java, Spring Boot, Microservices, AWS Cloud, and data pipelines. Proven ability to translate business requirements into robust architectures and lead projects from ideation to production.",
   experiences: [
     {
@@ -43,6 +43,14 @@ export const INITIAL_DATA: ResumeData = {
       tech: ["Spring Boot", "React", "Kafka", "REST", "SOAP"],
       description: "Developer productivity platform automating BlueYonder WMS development lifecycle via Git and DLX integrations.",
       link: "internal-enterprise-project"
+    },
+    {
+      id: "p3",
+      name: "Bestinet Architecture Modernization",
+      tech: ["Spring Boot", "Microservices", "AWS", "Kafka", "Distributed Systems"],
+      description:
+        "Architectural consulting engagement to assess a complex multi-module immigration platform and recommend modernization, multi-tenancy, scalability, and resiliency improvements.",
+      link: "internal-enterprise-project"
     }
   ],
   education: [
@@ -50,6 +58,12 @@ export const INITIAL_DATA: ResumeData = {
       id: "e1",
       school: "Lund University, Sweden",
       degree: "M.Sc. Corporate Entrepreneurship",
+      year: ""
+    },
+       {
+      id: "e2",
+      school: "U.P.T.U, India",
+      degree: "B.Tech (Information Technology)",
       year: ""
     }
   ],
@@ -65,6 +79,17 @@ export const INITIAL_DATA: ResumeData = {
     {
       category: "Cloud & DevOps",
       items: ["AWS", "Docker", "Kubernetes", "Jenkins", "ECS Fargate", "ELK Stack"]
+    },
+     {
+      category: "GenAI & Tools",
+      items: [
+        "OpenAI APIs",
+        "Structured Output",
+        "Vibe Coding",
+        "Cline",
+        "VSCode",
+        "IntelliJ IDEA"
+      ]
     }
   ]
 }

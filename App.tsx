@@ -233,7 +233,7 @@ const App: React.FC = () => {
            </div>
            <div className="text-right">
              <span className="px-4 py-2 rounded-full bg-white/5 border border-white/5 text-sm font-bold mono">
-               CLASS OF {data.education[0].year}
+               {data.education[0].year}
              </span>
            </div>
         </BentoBox>
