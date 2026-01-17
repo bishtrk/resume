@@ -102,7 +102,7 @@ const App: React.FC = () => {
               animate={{ opacity: 1, scale: 1 }}
               className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-xs font-bold mb-6 w-fit border border-blue-500/20"
             >
-              <Sparkles size={12} /> OPEN TO NEW OPPORTUNITIES
+              <Sparkles size={12} /> Engineer, Consultant & Full Stack Architect
             </motion.div>
             <h1 className="text-4xl lg:text-5xl font-extrabold tracking-tight mb-6 bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">
               Architecting digital <br />
@@ -131,7 +131,7 @@ const App: React.FC = () => {
             </div>
             <div className="pt-4 border-t border-white/5 space-y-2">
               <div className="flex items-center gap-2 text-xs text-slate-400">
-                <MapPin size={12} /> San Francisco, CA
+                <MapPin size={12} /> Bangalore, IN
               </div>
               <div className="flex items-center gap-2 text-xs text-slate-400">
                 <Calendar size={12} /> 8+ Years Experience
